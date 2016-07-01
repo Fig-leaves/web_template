@@ -1,7 +1,7 @@
 {
-  "name": "webapp-skeleton",
+  "name": "webapp_template",
   "version": "0.0.0",
-  "description": "",
+  "description": "web app template",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +22,31 @@
     "jadeify": "^2.3.0",
     "main-bower-files": "^1.0.2",
     "vinyl-source-stream": "^0.1.1"
-  }
+  },
+  "dependencies": {
+    "browser-sync": "^1.9.2",
+    "glob": "^7.0.5",
+    "coffeeify": "^0.6.0",
+    "browserify": "^4.2.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-plumber": "^0.6.6",
+    "gulp": "^3.9.1",
+    "gulp-watch": "^0.6.10",
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-webserver": "^0.9.1",
+    "gulp-jade": "^1.1.0",
+    "jade": "^1.11.0",
+    "jadeify": "^2.7.0",
+    "main-bower-files": "^1.0.3",
+    "vinyl-source-stream": "^0.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fig-leaves/web_template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Fig-leaves/web_template/issues"
+  },
+  "homepage": "https://github.com/Fig-leaves/web_template#readme"
 }
